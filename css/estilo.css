@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{ 
+    background-color: hwb(49 55% 12% / 0.462);
+    font-family: 'Quicksand', sans-serif;
+}
+h1, h2{
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+    
+}
+main p{
+    color: rgb(46, 94, 74);
+    font-size: 20px;
+
+
+}
+main .verde{
+    color: green;
+    font-weight: bold;
+}
+ol{
+    list-style-type: upper-roman;
+
+}
+#up{ /*ocupo el id que ya tiene puesto*/
+    font-weight: lighter;
+}
+a{
+    text-decoration: none;
+}
+.fondoImg{
+    background-image: url(../img/wave.png);
+}

@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/estilo.css">
+    <title>Tablas y Formularios</title>
+</head>
+<body>
+    <header>
+        <h1>Clase 2</h1>
+        <nav>
+            <ul>
+                <li><a href="./index.html">Inicio</a></li>
+                <li><a href="./pag2.html">Página 2</a></li>
+                <li><a href="./tablaForm.html">Tablas y Formularios</a></li>
+                <li><a href="./listas.html">Listas</a></li>
+                <li><a href="./contacto.html">Contactos</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h2>Tablas</h2>
+            <table border="2" cellpadding="10px">
+                <tr>    
+                    <th>Nombre</th>
+                    <th>Edad</th>
+                    <th>Nacionalidad</th>
+                </tr>
+                <tr>
+                    <td>Juan</td>
+                    <td>30</td>
+                    <td>Chile</td>
+                </tr>
+                <tr>
+                    <td>Alejandro</td>
+                    <td>31</td>
+                    <td>Argentina</td>
+                </tr>
+                <tr>
+                    <td>Pablo</td>
+                    <td>23</td>
+                    <td>Uruguay</td>
+                </tr>
+
+            </table>
+        </section>
+        <section class="fondoImg">
+            <h2>Formularios</h2>
+            <form action="#">
+                <div>
+                    <label for="Name">Escribe tu nombre</label>
+                    <input type="text" name="name" placeholder="Alejandro">
+                </div>
+                <br>
+                <div>
+                    <label for="surname">Escribe tu apellido</label>
+                    <input type="text" name="surname" placeholder="Mejias">
+                </div>
+                <br>
+                    <label for="mail" name="email">Escribe tu mail</label>
+                    <input type="email" required placeholder="Correo electronico"> 
+                </div>
+                <br>
+                <br>
+                <div>
+                    <label for="pais">Elije tu país</label>
+                    <select name="pais" id="">
+                        <option value=""></option>
+                        <option value="ar">Argentina</option>
+                        <option value="ar">Uruguay</option>
+                        <option value="ar">Chile</option>
+                    </select>
+                </div>
+                <br>
+                <div>
+                    <label for="sex">Sexo</label>
+                    <input type="radio" name="sex" value="muj">Mujer
+                    <input type="radio" name="sex" value="hom">Hombre
+                </div>
+                <br>
+                <div>
+                    <label for="nac">Selecciona tu fecha de nacimiento</label>
+                    <label type="date" name="nac"></label>
+                </div>
+                <br>
+                <div>
+                    <label for="comentario">Escribe un comentario</label><br>
+                    <textarea name="" id="" cols="30" rows="10"></textarea>
+                </div>
+                <br>
+                <div>
+                    <label for="terminos">Acepto Términos</label>
+                    <input type="checkbox" nameO="terminos">
+                </div>
+                <br>
+                <div>
+                    <input type="submit" value="Enviar Datos">
+                    <input type="reset" value="Borrar Datos">
+                </div>
+                <br>
+
+
+                </div>
+            </form>
+
+
+
+        </section>
+
+    </main>
+</body>
+</html>
